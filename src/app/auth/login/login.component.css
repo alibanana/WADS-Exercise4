@@ -1,0 +1,48 @@
+:host {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+}
+
+.container {
+	margin: 0;
+	height: 100%;
+	max-width: 100%;
+}
+
+h1 {
+	padding-top: 50px;
+	text-align: center;
+	font-family: Gillimore;
+	color: white;
+}
+
+.error {
+	color: red;
+	text-align: center;
+}
+
+.success {
+	color: green;
+	text-align: center;
+}
+
+form .form-group label {
+	color: white !important;
+}
+
+form .form-group small {
+	color: white !important;
+}
+
+form .row .col-md-6 {
+	text-align: center;
+}
+
+form .row .col-md-6 button {
+	width: 100%;
+	background-color: orange !important;
+	border-color: orange !important;
+}

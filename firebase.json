@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "angular-assignment-app",
+      "public": "dist/angular-assignment-app",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}

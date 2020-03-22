@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+
+@font-face{
+	font-family: "Gillimore";
+	src: url(/assets/fonts/Gillimore.ttf);
+}
+
+@font-face{
+	font-family: "cocoregular";
+	src: url(/assets/fonts/cocoregular.ttf);
+}
+
+.backgroundimageCoffee {
+	background: url(/assets/images/IMG_0763.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}

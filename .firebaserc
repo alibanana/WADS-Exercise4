@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "alifio-wads-exercise4": {
+      "hosting": {
+        "angular-assignment-app": [
+          "alifio-wads-exercise4"
+        ]
+      }
+    }
+  }
+}

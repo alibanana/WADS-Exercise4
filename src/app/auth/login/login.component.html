@@ -1,0 +1,34 @@
+<div class="container backgroundimageCoffee">
+    <!-- Main Heading -->
+    <h1>User Login</h1>
+
+    <!-- Login Form -->
+    <div class="row" style="padding-top: 250px; max-width: 100%">
+        <div class="col-md-4 mx-auto">
+        <div class="row" *ngIf="authError">
+            <div class="col-12 alert alert-danger">
+                {{ authError?.message }}
+            </div>
+        </div>
+        <form #loginForm="ngForm" (ngSubmit)="login(loginForm)">
+            <div class="form-group">
+            <label for="email">Username/Email</label>
+            <input ngModel #email="ngModel" type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+            <label for="password">Password</label>
+            <input ngModel #password="ngModel" type="password" class="form-control" id="password" name="password">
+            </div>
+            <div class="row">
+            <div class="col-md-6">
+                <button type="submit" class="btn btn-primary">Login</button>
+            </div>  
+            <div class="col-md-6">
+                <button type="button" class="btn btn-primary" routerLink="/register">Register</button>
+            </div>  
+            </div>
+        </form>
+        </div>
+    </div>
+</div>
